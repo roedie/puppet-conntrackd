@@ -1,5 +1,5 @@
 class conntrackd::config {
-  file {[$conntrackd::config_dir, "${conntrackd::config_dir}/conf.d"]:
+  file {$conntrackd::config_dir:
     owner => "root",
     group => "root",
     mode => "0755",
