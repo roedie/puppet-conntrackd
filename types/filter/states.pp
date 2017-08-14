@@ -1,0 +1,1 @@
+  type Conntrackd::Filter::States = Enum['SYN_SENT','SYN_RECV','ESTABLISHED','FIN_WAIT','CLOSE_WAIT','LAST_ACK','TIME_WAIT','CLOSED','LISTEN']
