@@ -9,7 +9,7 @@ class conntrackd::config {
       mode => "0755",
       ensure => "directory",
       recurse => true,
-      purge => $conntrackd::config_dir_purge
+      purge => $conntrackd::config_dir_purge;
 
     "${conntrackd::config_dir}/primary-backup.sh":
       mode => "0755",
