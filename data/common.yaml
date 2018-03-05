@@ -12,7 +12,7 @@ conntrackd::config_dir_purge: true
 conntrackd::config_file: "%{lookup('conntrackd::config_dir')}/conntrackd.conf"
 conntrackd::config_file_manage: true
 conntrackd::packages:
-  "conntrack-tools": {}
+  "conntrackd": {}
 conntrackd::service_name: "conntrackd"
 conntrackd::service_manage: true
 conntrackd::service_ensure: "running"
